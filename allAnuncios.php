@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
  <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +15,7 @@ session_start();
 
 
    $selectTodosAnuncios = "SELECT * from anuncios";
+echo "TESTE GITHUB";
 
 
    	$displayTodosAnuncios = mysqli_query($GLOBALS['dao'], $selectTodosAnuncios);
