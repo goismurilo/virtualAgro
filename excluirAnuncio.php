@@ -18,4 +18,8 @@ if(meuAnuncio(getIdAnuncianteIdAnuncio($_GET['idAnuncio']), $_SESSION['id'])){
 
 	ECHO "OPERAÇÃO INVÁLIDA";
 }
+
+
+
+
 ?>
